@@ -13,4 +13,4 @@ class Bible(models.Model):
     verse = models.IntegerField()
 
     def __str__(self):
-        return self.book+" "+self.chapter+":"+self.verse
+        return "{} {}:{}".format(self.book.name, self.chapter, self.verse)
