@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,13 +13,13 @@
     <title>Mexant Template - Services page</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-574-mexant.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="{% static 'assets/css/fontawesome.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/templatemo-574-mexant.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/owl.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/animate.css' %}">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
 <!--
 
@@ -41,7 +42,7 @@ https://templatemo.com/tm-574-mexant
                   <nav class="main-nav">
                       <!-- ***** Logo Start ***** -->
                       <a href="index.html" class="logo">
-                          <img src="assets/images/logo.png" alt="">
+                          <img src="{% static 'assets/images/logo.png' %}" alt="">
                       </a>
                       <!-- ***** Logo End ***** -->
                       <!-- ***** Menu Start ***** -->
@@ -94,7 +95,7 @@ https://templatemo.com/tm-574-mexant
             <div class="row">
               <div class="col-lg-6">
                 <div class="left-image">
-                  <img src="assets/images/service-image-01.jpg" alt="">
+                  <img src="{% static 'assets/images/service-image-01.jpg' %}" alt="">
                 </div>
               </div>
               <div class="col-lg-6 align-self-center">
@@ -119,7 +120,7 @@ https://templatemo.com/tm-574-mexant
               </div>
               <div class="col-lg-6">
                 <div class="right-image">
-                  <img src="assets/images/service-image-02.jpg" alt="">
+                  <img src="{% static 'assets/images/service-image-02.jpg' %}" alt="">
                 </div>
               </div>
             </div>
@@ -130,7 +131,7 @@ https://templatemo.com/tm-574-mexant
             <div class="row">
               <div class="col-lg-6">
                 <div class="left-image">
-                  <img src="assets/images/service-image-03.jpg" alt="">
+                  <img src="{% static 'assets/images/service-image-03.jpg' %}" alt="">
                 </div>
               </div>
               <div class="col-lg-6 align-self-center">
@@ -192,7 +193,7 @@ https://templatemo.com/tm-574-mexant
                     <li class="active">
                       <div>
                         <div class="left-image">
-                          <img src="assets/images/service-details-01.jpg" alt="">
+                          <img src="{% static 'assets/images/service-details-01.jpg' %}" alt="">
                         </div>
                         <div class="right-content">
                           <h4>Learn more about cryptocurrency investments</h4>
@@ -206,7 +207,7 @@ https://templatemo.com/tm-574-mexant
                     <li>
                       <div>
                         <div class="left-image">
-                          <img src="assets/images/service-details-02.jpg" alt="">
+                          <img src="{% static 'assets/images/service-details-02.jpg' %}" alt="">
                         </div>
                         <div class="right-content">
                           <h4>Read more on Cryptocurrency Market</h4>
@@ -220,7 +221,7 @@ https://templatemo.com/tm-574-mexant
                     <li>
                       <div>
                         <div class="left-image">
-                          <img src="assets/images/service-details-03.jpg" alt="">
+                          <img src="{% static 'assets/images/service-details-03.jpg' %}" alt="">
                         </div>
                         <div class="right-content">
                           <h4>How to carefully plan on your online financials</h4>
@@ -246,32 +247,32 @@ https://templatemo.com/tm-574-mexant
       <div class="row">
         <div class="col-lg-2 col-sm-4 col-6">
           <div class="item">
-            <img src="assets/images/client-01.png" alt="">
+            <img src="{% static 'assets/images/client-01.png' %}" alt="">
           </div>
         </div>
         <div class="col-lg-2 col-sm-4 col-6">
           <div class="item">
-            <img src="assets/images/client-01.png" alt="">
+            <img src="{% static 'assets/images/client-01.png' %}" alt="">
           </div>
         </div>
         <div class="col-lg-2 col-sm-4 col-6">
           <div class="item">
-            <img src="assets/images/client-01.png" alt="">
+            <img src="{% static 'assets/images/client-01.png' %}" alt="">
           </div>
         </div>
         <div class="col-lg-2 col-sm-4 col-6">
           <div class="item">
-            <img src="assets/images/client-01.png" alt="">
+            <img src="{% static 'assets/images/client-01.png' %}" alt="">
           </div>
         </div>
         <div class="col-lg-2 col-sm-4 col-6">
           <div class="item">
-            <img src="assets/images/client-01.png" alt="">
+            <img src="{% static 'assets/images/client-01.png' %}" alt="">
           </div>
         </div>
         <div class="col-lg-2 col-sm-4 col-6">
           <div class="item">
-            <img src="assets/images/client-01.png" alt="">
+            <img src="{% static 'assets/images/client-01.png' %}" alt="">
           </div>
         </div>
       </div>
@@ -292,15 +293,15 @@ https://templatemo.com/tm-574-mexant
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
 
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
+    <script src="{% static 'assets/js/isotope.min.js' %}"></script>
+    <script src="{% static 'assets/js/owl-carousel.js' %}"></script>
 
-    <script src="assets/js/tabs.js"></script>
-    <script src="assets/js/swiper.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script src="{% static 'assets/js/tabs.js' %}"></script>
+    <script src="{% static 'assets/js/swiper.js' %}"></script>
+    <script src="{% static 'assets/js/custom.js' %}"></script>
     <script>
         var interleaveOffset = 0.5;
 
